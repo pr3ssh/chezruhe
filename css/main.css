@@ -1,0 +1,184 @@
+/*
+marron oscuro: #3c2c13
+marron claro: #f0e2b8
+celeste: #aecfcf
+celeste oscuro: #63a3a3
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Ewert);
+@import url(http://fonts.googleapis.com/css?family=Sacramento);
+
+* {
+	font-family: 'Philosopher', sans-serif !important;
+}
+
+.small-text {
+	font-size: 22px;
+}
+
+.normal-text {
+	font-size: 34px;
+}
+
+.big-text {
+	font-size: 54px;
+}
+
+#menu > ul > li > a {
+	font-size: 18px;
+}
+
+.contentPage {
+	margin: 0 auto;
+	padding-top: 200px;
+}
+
+#hello > .wrap > .container {
+	/*background: #f0e2b8 url("../images/home/marco.png") no-repeat;
+	background-size: 99%;*/
+	height: 650px;
+}
+
+#hello > .wrap > .container > div > div.first {
+	margin-top: 50px;
+}
+
+#hello > .wrap > .container > div > div.second {
+	margin-top: 150px;
+}
+#hello > .wrap > .container > div > div > img {
+	margin-top: 30px;
+}
+
+#unica {
+	font-size: 80px;
+	font-family: 'Ewert', cursive !important;
+}
+
+#bonvoyage {
+	padding-right: 30px;
+	font-family: 'Sacramento', cursive !important;
+}
+
+#hello .cloud1 {
+	position: relative;
+	left: -325px;
+	top: -125px;
+}
+
+#hello .cloud2 {
+	position: relative;
+	left: 130px;
+	top: -25px;
+}
+
+#hello .cloud3 {
+	position: relative;
+	left: 130px;
+	top: -280px;
+}
+
+#vintage .cloud1 {
+	position: relative;
+	left: -120px;
+	top: -500px;
+}
+
+#vintage .cloud2 {
+	position: relative;
+	left: 280px;
+	top: -440px;
+}
+
+#vintage .cloud3 {
+	position: relative;
+	left: -300px;
+	top: -190px;
+}
+
+#texto-piezas-basicas {
+	color: #63a3a3;
+}
+
+.texto-marron {
+	color: #3c2c13;
+}
+
+.texto-blanco {
+	color: white;
+}
+
+.odd {
+	color: #3c2c13;
+	background: #f0e2b8 url('../images/textura_marron_1.png') repeat;
+}
+
+.even {
+	color: white;
+	background: #aecfcf url('../images/textura_azul_1.png') repeat;
+}
+
+.gallery > div > a {
+	margin-bottom: 10px;
+}
+
+#bicicleta {
+	width: 80%;
+	height: 80%;
+	/*background-color: #fff;
+	    position: absolute;
+	    border: 1px solid black;
+	    padding: 3px;
+	    display: inline-block;
+	    -webkit-transition: all 0.5s ease-in-out;
+	    -moz-transition: all 0.5s ease-in-out;
+	    -o-transition: all 0.5s ease-in-out;
+	    -ms-transition: all 0.5s ease-in-out;
+	    transition: all 0.5s ease-in-out;*/
+}
+
+#telefono {
+	width: 90%;
+	height: 90%;
+}
+
+#mail {
+	margin-top: 20px;
+}
+
+.mythumbnail {
+	display: block;
+	max-width: 190px;
+	padding: 4px;
+	background-color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.mythumbnail img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'old-timey\'><feColorMatrix type=\'matrix\' values=\'0.14 0.45 0.05 0 0 0.12 0.39 0.04 0 0 0.08 0.28 0.03 0 0 0 0 0 1 0\'/></filter></svg>#old-timey");
+	-webkit-filter: sepia(1);
+	-webkit-filter: sepia(100%);
+	-moz-filter: sepia(100%);
+	-ms-filter: sepia(100%);
+	-o-filter: sepia(100%);
+	filter: sepia(100%);
+}
+
+.mythumbnail img:hover {
+	filter: none;
+	-webkit-filter: sepia(0);
+	-moz-filter: sepia(0);
+	-ms-filter: sepia(0);
+	-o-filter: sepia(0);
+	filter: sepia(0);
+}
+
+

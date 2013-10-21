@@ -1,0 +1,135 @@
+html, body {
+    height: 100%;
+    width: 100%;	
+	}
+body{
+    min-height: 101%;
+		margin:0;	
+}
+.loading{
+	width:100%;
+	height:700px;
+	background:url(../images/loading.gif) no-repeat center center;
+	position:absolute;
+	z-index:100
+	}
+#contentSlide{
+	top: 0px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	/*position:relative;*/
+	}
+.pageContainer{
+	position:absolute;
+	width:100% ;
+	min-height:100%;
+	float:none !important;
+	z-index:9990;
+	top:0;
+	}
+/* top */
+#top {
+	height:65px;
+	background:#3C2C13;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:10000;
+	}
+#top .set-size {
+	position:relative;
+	}
+
+#top #toplogo {
+	position: absolute;
+	left: 500px;
+	margin-top: -15px;
+	}
+	#menu {
+		font-size: 13px;
+		height: 45px;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		padding: 10px;
+	}
+	#socialnetworks {
+		padding-top: 20px;
+	}
+	#menu ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	#menu a {
+		font-size: 13px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+/* Top buttons */
+#menu > ul > li {
+			float: left;
+			margin: 10px 5px;
+			position: relative;
+		}
+#menu > ul > li > a {
+			line-height: 32px;
+			color: #f0e2b8;
+			padding: 7px 15px 10px;
+			-webkit-transition: border 0.1s;
+			-moz-transition: border 0.1s;
+			-ms-transition: border 0.1s;
+			-o-transition: border 0.1s;
+			transition: border 0.1s;
+		}
+#menu > ul > li:hover > a {
+			color: #f0e2b8;
+			/*background-color: #f0e2b8;*/
+			border-top: 1px dotted #f0e2b8;
+			border-bottom: 2px dotted #f0e2b8;
+			-webkit-transition: border 0.1s, color 0.1s;
+			-moz-transition: border 0.1s, color 0.1s;
+			-ms-transition: border 0.1s, color 0.1s;
+			-o-transition: border 0.1s, color 0.1s;
+			transition: border 0.1s, color 0.1s;
+		}
+#menu > ul > li > a.current{
+			color: #f0e2b8;
+			/*background-color: #f0e2b8;*/
+			border-top: 1px dotted #f0e2b8;
+			border-bottom: 2px dotted #f0e2b8;
+	}
+		
+/*#menu .menu-label {
+			background-image: url("../images/drop_arrow.png");
+			background-position:right 7px;
+			background-repeat:no-repeat;
+			-webkit-transition: background 0.1s;
+			-moz-transition: background 0.1s;
+			-ms-transition: background 0.1s;
+			-o-transition: background 0.1s;
+			transition: background 0.1s;
+			padding-right: 15px;
+		}
+#menu .menu-drop:hover .menu-label {
+			background-position:right -23px;
+			-webkit-transition: background 0.1s;
+			-moz-transition: background 0.1s;
+			-ms-transition: background 0.1s;
+			-o-transition: background 0.1s;
+			transition: background 0.1s;
+		}*/
+#menu .menu-right {
+			float: right;
+}
+
+.shadow {
+	background:url(../images/cabecera/curvitacabecera.png) repeat-x;
+	height:15px;
+	position:fixed;
+	top:65px;
+	width:100%; 
+	z-index:9999;
+	}
