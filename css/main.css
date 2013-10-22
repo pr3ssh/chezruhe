@@ -144,7 +144,11 @@ celeste oscuro: #63a3a3
 }
 
 #mail {
-	margin-top: 20px;
+	color: white;
+}
+
+#mail:hover, #mail:active, #mail:visited {
+	color: white;
 }
 
 .mythumbnail {
