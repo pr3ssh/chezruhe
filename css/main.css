@@ -36,8 +36,8 @@ celeste oscuro: #63a3a3
 
 #hello > .wrap > .container {
 	/*background: #f0e2b8 url("../images/home/marco.png") no-repeat;
-	background-size: 99%;*/
-	height: 650px;
+	background-size: 99%;
+	height: 650px;*/
 }
 
 #hello > .wrap > .container > div > div.first {
@@ -46,6 +46,9 @@ celeste oscuro: #63a3a3
 
 #hello > .wrap > .container > div > div.second {
 	margin-top: 150px;
+}
+#hello > .wrap > .container > div > div.second div {
+	margin-bottom: -12px;
 }
 #hello > .wrap > .container > div > div > img {
 	margin-top: 30px;
