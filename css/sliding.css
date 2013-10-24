@@ -97,7 +97,6 @@ body{
 		}
 #menu > ul > li > a.current{
 			color: #f0e2b8;
-			/*background-color: #f0e2b8;*/
 			border-top: 1px dotted #f0e2b8;
 			border-bottom: 2px dotted #f0e2b8;
 	}
